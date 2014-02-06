@@ -37,7 +37,7 @@ m = len(T)
 f = lambda: defaultdict(f)
 delta = defaultdict(f)
 
-# http://wiki.algo.informatik.tu-darmstadt.de/index.php/String_matching_based_on_finite_automaton
+# http://wiki.algo.informatik.tu-darmstadt.de/wiki.algo.informatik.tu-darmstadt.de/index.php/String_matching_based_on_finite_automaton.html
 # induction basis
 for j in range(m):
 	for c in alphabet:
