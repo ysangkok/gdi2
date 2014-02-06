@@ -14,7 +14,7 @@ m = #T
 
 delta = {}
 
--- http://wiki.algo.informatik.tu-darmstadt.de/index.php/String_matching_based_on_finite_automaton
+-- http://wiki.algo.informatik.tu-darmstadt.de/wiki.algo.informatik.tu-darmstadt.de/index.php/String_matching_based_on_finite_automaton.html
 -- induction basis
 delta[0] = {}
 for _,c in ipairs(alphabet) do delta[0][c] = T:sub(1,1) == c and 1 or 0 end
